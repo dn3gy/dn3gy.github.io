@@ -1,4 +1,5 @@
 theme: jekyll-theme-cayman
+permalink: /blog/:year/:month/:day/:title
 # title: Dion Niazi
 # description: Computer Programer
 # author: Dion Niazi
