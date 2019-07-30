@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Dion Niazi's Blog
+title: My Blog
 ---
 <div class="container">
-	<h1>{{ page.title }}</h1>
-	<ul>
+	<h3>Posts</h3>
 	  {% for post in site.posts %}
-	    <li><span>{{ post.date | date_to_string }} </span><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+		<span class="w3-blue-grey">{{ post.date | date_to_string }} </span>
+		<p><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></p>
+		<br/>
 	  {% endfor %}
-    </ul>
 </div>
