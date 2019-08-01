@@ -5,7 +5,7 @@ title: My Blog
 <div class="container">
 	<h3>Posts</h3>
 	  {% for post in site.posts %}
-		<span class="w3-blue-grey">{{ post.date | date_to_string }} </span>
+		<span style="font-size: 14px; color: #828282;">{{ post.date | date_to_string }} </span>
 		<p><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></p>
 		<br/>
 	  {% endfor %}
